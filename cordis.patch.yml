@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Elouan Martinet <exa@elou.world>
+#
+# SPDX-License-Identifier: MIT
+
+# dsh bundle patch: mounts the plugin row. The row's name is the package name,
+# which the profile launcher resolves to this checkout (or to the published
+# package); the browser half is loaded from the package's `./client` export.
+- insert:
+    - id: draft-prompts
+      name: '@exagone313/dsh-draft-prompts'
