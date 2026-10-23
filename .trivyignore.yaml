@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Elouan Martinet <exa@elou.world>
+#
+# SPDX-License-Identifier: MIT
+
+# The plugin ships no container images and no Go binaries: the Trivy job scans
+# the repository only. This file records the accepted exceptions, currently
+# none. It is referenced by .github/workflows/ci-code.yml so the scan path is
+# ready for a suppression that is written down instead of skipped.
+vulnerabilities: []
+misconfigurations: []
