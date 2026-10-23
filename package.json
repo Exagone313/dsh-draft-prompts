@@ -1,6 +1,6 @@
 {
   "name": "@exagone313/dsh-draft-prompts",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Adds a right-sidebar tab for drafting prompts in DeepSeek Harness (dsh).",
   "license": "MIT",
   "repository": {
